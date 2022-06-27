@@ -1,0 +1,94 @@
+.user_card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  
+  justify-content: space-around;
+
+}
+
+.user_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 172px;
+  height: 271px;
+  box-shadow: 0px 0px 15px 0.2px black;
+  border-radius: 30px;
+  margin: 15px;
+  background-repeat:no-repeat;
+  /* background-image:url('https://lh3.googleusercontent.com/proxy/veDcFuDPd9PCcpUVoZFMgdIEn3NF2nCDGuOZaCS5EoS_8r4tKZZ3R95febEBuaNLgcNWqA8VDWIvAmaPaUWlaFLcfdtT9gNEXlZgETfyjO7SAtlg4ScgVIcVMNE'); */
+  background-size: cover ;
+  background-position: center;
+  
+}
+
+.user_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  height: 100px;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userInfo p {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  
+}
+
+.userImage {
+  width: 80px;
+  height: 80px;
+}
+
+.pages {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.selectedPage {
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.pageSizes {
+  width: 300px;
+  overflow: scroll;
+  height: 40px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+  border: none;
+  transition: 0.2s;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

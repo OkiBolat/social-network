@@ -1,0 +1,31 @@
+.app-wrapper {
+  display: grid;
+  max-width: 1200px;
+  padding: 30px;
+  width: 100%;
+  background-color: #ffff;
+  margin: 0 auto;
+  box-shadow: 0 0 15px 15px #ebc0c0;
+  border-radius: 15px;
+  grid-template-areas:
+    "header header "
+    "nav  content  ";
+  grid-template-rows: 60px -1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+
+}
+
+.app-wrapper-content {
+  width: 900px;
+  grid-area: content;
+  padding: 15px;
+
+
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 30px;
+  background-color: #F7D7D0;
+}
